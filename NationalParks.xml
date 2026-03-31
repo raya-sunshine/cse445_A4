@@ -1,124 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<NationalParks>
+<NationalParks
+  xmlns="http://nationalparks.example.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://nationalparks.example.com https://raya-sunshine.github.io/cse445_A4/NationalParks.xsd">
 
-    <NationalPark Rating="4.9">
-        <Name>Grand Canyon National Park</Name>
-        <Phone>928-638-7888</Phone>
-        <Address NearestAirport="Flagstaff Pulliam Airport">
-            <Number>20</Number>
-            <Street>South Entrance Road</Street>
-            <City>Grand Canyon</City>
-            <State>AZ</State>
-            <Zip>86023</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon National Park</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="FlagStaff">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.8">
-        <Name>Petrified Forest National Park</Name>
-        <Phone>928-524-6228</Phone>
-        <Address NearestAirport="Show Low Regional Airport">
-            <Number>1</Number>
-            <Street>Park Road</Street>
-            <City>Petrified Forest</City>
-            <State>AZ</State>
-            <Zip>86028</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Petrified Forest National Park</Name>
+		<Phone>928-524-6228</Phone>
+		<Address NearestAirport="Show Low Regional Airport">
+			<Number>1</Number>
+			<Street>Park Road</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.8">
-        <Name>Death Valley National Park</Name>
-        <Phone>760-786-3200</Phone>
-        <Address NearestAirport="Harry Reid International Airport">
-            <Number>328</Number>
-            <Street>Green Street</Street>
-            <City>Death Valley</City>
-            <State>CA</State>
-            <Zip>92328</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Death Valley National Park</Name>
+		<Phone>760-786-3200</Phone>
+		<Phone>760-786-2331</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>328</Number>
+			<Street>Green Street</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.8">
-        <Name>Joshua Tree National Park</Name>
-        <Phone>760-367-5500</Phone>
-        <Address NearestAirport="Palm Springs International Airport">
-            <Number>74485</Number>
-            <Street>National Park Drive</Street>
-            <City>Twentynine Palms</City>
-            <State>CA</State>
-            <Zip>92277</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Joshua Tree National Park</Name>
+		<Phone>760-367-5500</Phone>
+		<Address NearestAirport="Palm Springs International Airport">
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.7">
-        <Name>Black Canyon of the Gunnison National Park</Name>
-        <Phone>970-641-2337</Phone>
-        <Address NearestAirport="Montrose Regional Airport">
-            <Number>102</Number>
-            <Street>Gunnison Point Road</Street>
-            <City>Montrose</City>
-            <State>CO</State>
-            <Zip>81401</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark>
+		<Name>Black Canyon of the Gunnison National Park</Name>
+		<Phone>970-641-2337</Phone>
+		<Address NearestAirport="Montrose Regional Airport">
+			<Number>102</Number>
+			<Street>Gunnison Point Road</Street>
+			<City>Montrose</City>
+			<State>CO</State>
+			<Zip>81401</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.7">
-        <Name>Great Sand Dunes National Park and Preserve</Name>
-        <Phone>719-378-6395</Phone>
-        <Address NearestAirport="San Luis Valley Regional Airport">
-            <Number>11999</Number>
-            <Street>State Highway 150</Street>
-            <City>Mosca</City>
-            <State>CO</State>
-            <Zip>81146</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.7">
+		<Name>Great Sand Dunes National Park and Preserve</Name>
+		<Phone>719-378-6395</Phone>
+		<Address NearestAirport="San Luis Valley Regional Airport">
+			<Number>11999</Number>
+			<Street>State Highway 150</Street>
+			<City>Mosca</City>
+			<State>CO</State>
+			<Zip>81146</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.7">
-        <Name>Mammoth Cave National Park</Name>
-        <Phone>270-758-2180</Phone>
-        <Address NearestAirport="Nashville International Airport">
-            <Number>1</Number>
-            <Street>Mammoth Cave Parkway</Street>
-            <City>Mammoth Cave</City>
-            <State>KY</State>
-            <Zip>42259</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark>
+		<Name>Mammoth Cave National Park</Name>
+		<Phone>270-758-2180</Phone>
+		<Address NearestAirport="Nashville International Airport">
+			<Number>1</Number>
+			<Street>Mammoth Cave Parkway</Street>
+			<City>Mammoth Cave</City>
+			<State>KY</State>
+			<Zip>42259</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.6">
-        <Name>Voyageurs National Park</Name>
-        <Phone>218-283-6600</Phone>
-        <Address NearestAirport="Falls International Airport">
-            <Number>360</Number>
-            <Street>Highway 11 East</Street>
-            <City>International Falls</City>
-            <State>MN</State>
-            <Zip>56649</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.6">
+		<Name>Voyageurs National Park</Name>
+		<Phone>218-283-6600</Phone>
+		<Address NearestAirport="Falls International Airport">
+			<Number>360</Number>
+			<Street>Highway 11 East</Street>
+			<City>International Falls</City>
+			<State>MN</State>
+			<Zip>56649</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.8">
-        <Name>Glacier National Park</Name>
-        <Phone>406-888-7800</Phone>
-        <Address NearestAirport="Glacier Park International Airport">
-            <Number>64</Number>
-            <Street>Grinnell Drive</Street>
-            <City>West Glacier</City>
-            <State>MT</State>
-            <Zip>59936</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark Rating="4.8">
+		<Name>Glacier National Park</Name>
+		<Phone>406-888-7800</Phone>
+		<Phone>406-888-7801</Phone>
+		<Address NearestAirport="Glacier Park International Airport">
+			<Number>64</Number>
+			<Street>Grinnell Drive</Street>
+			<City>West Glacier</City>
+			<State>MT</State>
+			<Zip>59936</Zip>
+		</Address>
+	</NationalPark>
 
-    <NationalPark Rating="4.8">
-        <Name>Great Basin National Park</Name>
-        <Phone>775-234-7331</Phone>
-        <Address NearestAirport="Elko Regional Airport">
-            <Number>100</Number>
-            <Street>Great Basin National Park Road</Street>
-            <City>Baker</City>
-            <State>NV</State>
-            <Zip>89311</Zip>
-        </Address>
-    </NationalPark>
+	<NationalPark>
+		<Name>Great Basin National Park</Name>
+		<Phone>775-234-7331</Phone>
+		<Address NearestAirport="Elko Regional Airport">
+			<Number>100</Number>
+			<Street>Great Basin National Park Road</Street>
+			<City>Baker</City>
+			<State>NV</State>
+			<Zip>89311</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.9">
+		<Name>Zion National Park</Name>
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport="St. George Regional Airport">
+			<Number>1</Number>
+			<Street>Zion Park Boulevard</Street>
+			<City>Springdale</City>
+			<State>UT</State>
+			<Zip>84767</Zip>
+		</Address>
+	</NationalPark>
 
 </NationalParks>
