@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark>
+	<NationalPark Rating="4.9">
+		<Name>Grand Canyon National Park</Name>
+		<Phone>928-638-7888</Phone>
+		<Address>
+			<Number>20</Number>
+			<Street>South Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Petrified Forest National Park</Name>
+		<Address NearestAirport="Show Low Regional Airport">
+			<Number>1</Number>
+			<Street>Park Road</Street>
+			<City>Petrified Forest</City>
+			<State>AZ</State>
+			<Zip>86028</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Death Valley National Park</Name>
+		<Phone>760-786-3200</Phone>
+		<Address NearestAirport="Harry Reid International Airport">
+			<Number>328</Number>
+			<Street>Green Street</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</NationalPark>
+
+	<NationalPark Rating="4.8">
+		<Name>Joshua Tree National Park</Name>
+		<Name>Joshua Tree Duplicate Name</Name>
+		<Phone>760-367-5500</Phone>
+		<Address NearestAirport="Palm Springs International Airport">
+			<Number>74485</Number>
+			<Street>National Park Drive</Street>
+			<City>Twentynine Palms</City>
+			<State>CA</State>
+			<Zip>92277</Zip>
+		</Address>
+	</NationalPark>
+</NationalPark>
